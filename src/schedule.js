@@ -29,7 +29,7 @@ const schedule = () => {
       </li>
       <li class="row collection-item grey darken-4">
          <span class="col s6">Назва</span>
-         <span class="col s4">Номер аудеторії</span>
+         <span class="col s4">Номер аудиторії</span>
          <span class="col s2">Час</span>
       </li>`;
 
