@@ -14,13 +14,11 @@ const elevator = () => {
 
   const fieldElevator = (numberFlat) => {
     const floorFlat = Math.ceil(numberFlat / numberFlatOnField);
-    if (floorFlat % 2 === 0) {
+    if (floorFlat % 2 !== 0) {
       return `Поверх ${floorFlat} виходьте`;
-    } else if (floorFlat === 1) {
-      return `Поверх ${floorFlat + 1} спустітся на один нижче`;
-    } else {
-      return `Поверх ${floorFlat - 1} піднімітся на один вище`;
     }
+    return `Поверх ${floorFlat - 1} піднімітся на один вище`;
+
   };
 
   formElevator.addEventListener("keyup", (event) => {
