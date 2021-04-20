@@ -42,7 +42,7 @@ const twoDimensional = () => {
         }
       });
     });
-    return { positiveArray, negativesArray };
+    return {positiveArray, negativesArray};
   };
 
   formTwoDimensional.addEventListener("keyup", (event) => {
@@ -53,7 +53,7 @@ const twoDimensional = () => {
         validatorNumber(1, 1000, inputM)
       ) {
         const myArray = fillArray(inputN.value, inputM.value);
-        const { positiveArray, negativesArray } = sortArray(myArray);
+        const {positiveArray, negativesArray} = sortArray(myArray);
         answerTwoDimensional.innerHTML = `
         Початковий масив: <br> ${myArray
           .map((item, index) => `${index}: ${item.join(", ")}`)

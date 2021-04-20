@@ -1,4 +1,4 @@
-import { clearTask, validatorNumber } from "./validation";
+import {clearTask, validatorNumber} from "./validation";
 
 const fibonacci = () => {
   const fibonacciInput = document.querySelector(".js-fibonacci-input");

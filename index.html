@@ -1,187 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <style>
-
-        input {
-            color: white;
-        }
-
-        .select-wrapper .caret {
-            fill: white;
-        }
-
-        .mt-5 {
-            margin-top: 5px;
-        }
-
-        .btn-w {
-            width: 80px;
-
-        }
-
-        .btn-w-150 {
-            width: 164px;
-        }
-
-        .input-w {
-            width: 334px;
-        }
-
-        /*li span {*/
-        /*    background-color: black;*/
-        /*}*/
-
-    </style>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    
+    input {
+      color: white;
+    }
+    
+    .select-wrapper .caret {
+      fill: white;
+    }
+    
+    .mt-5 {
+      margin-top: 5px;
+    }
+    
+    .btn-w {
+      width: 80px;
+      
+    }
+    
+    .btn-w-150 {
+      width: 164px;
+    }
+    
+    .input-w {
+      width: 334px;
+    }
+    
+    .zero {
+      color: darkred;
+    }
+    
+    /*li span {*/
+    /*    background-color: black;*/
+    /*}*/
+  
+  </style>
 </head>
+
 <body class="grey darken-4 white-text text-white">
 <br><br><br><br>
 <div class="container">
-
-    <h5>Завдання 2 Числа Фібаначчі</h5>
-    <div class="row">
-        <div class="col s12">
-            <div class="input-field">
-                <input id="fibonacci-input" type="number" class="validate  js-fibonacci-input">
-                <label for="fibonacci-input">Введіть число</label>
-                <span class="helper-text" data-error=""></span>
-            </div>
-            <a class="waves-effect waves-light btn js-clean-btn-fibonacci-number"><i
-                    class="material-icons right">delete</i>clean</a>
-            <p>
-                <b class="js-all-fibonacci-number"></b>
-            </p>
+  
+  <h5>Завдання 2 Числа Фібаначчі</h5>
+  <div class="row">
+    <div class="col s12">
+      <div class="input-field">
+        <input id="fibonacci-input" type="number" class="validate  js-fibonacci-input">
+        <label for="fibonacci-input">Введіть число</label>
+        <span class="helper-text" data-error=""></span>
+      </div>
+      <a class="waves-effect waves-light btn js-clean-btn-fibonacci-number"><i
+        class="material-icons right">delete</i>clean</a>
+      <p>
+        <b class="js-all-fibonacci-number"></b>
+      </p>
+    </div>
+  </div>
+  <h5>Завдання 3 Ліфт</h5>
+  <div class="row">
+    <div class="col s12">
+      <form class="row js-form-elevator">
+        
+        <div class="input-field col s6">
+          <input id="input-floors" type="number" class="validate js-input-floors">
+          <label for="input-floors">Кількість поверхів</label>
+          <span class="helper-text" data-error=""></span>
         </div>
-    </div>
-    <h5>Завдання 3 Ліфт</h5>
-    <div class="row">
-        <div class="col s12">
-            <form class="row js-form-elevator">
-
-                <div class="input-field col s6">
-                    <input id="input-floors" type="number" class="validate js-input-floors">
-                    <label for="input-floors">Кількість поверхів</label>
-                    <span class="helper-text" data-error=""></span>
-                </div>
-
-                <div class="input-field col s6">
-                    <input id="input-flat" type="number" class="validate js-input-flat">
-                    <label for="input-flat">Номер квартири</label>
-                    <span class="helper-text" data-error=""></span>
-                </div>
-            </form>
-            <a class="waves-effect waves-light btn js-clean-btn-field-elevator"><i
-                    class="material-icons right">delete</i>clean</a>
-            <p>
-                <b class="js-field-elevator"></b>
-            </p>
+        
+        <div class="input-field col s6">
+          <input id="input-flat" type="number" class="validate js-input-flat">
+          <label for="input-flat">Номер квартири</label>
+          <span class="helper-text" data-error=""></span>
         </div>
+      </form>
+      <a class="waves-effect waves-light btn js-clean-btn-field-elevator"><i
+        class="material-icons right">delete</i>clean</a>
+      <p>
+        <b class="js-field-elevator"></b>
+      </p>
     </div>
-
-    <h5>Завдання 4 Двовимірний Масив</h5>
-    <div class="row">
-        <div class="col s12">
-            <form id="form-two-dimensional" class="row">
-
-                <div class="input-field col s6">
-                    <input id="input-n" type="number" class="validate">
-                    <label for="input-n">N</label>
-                    <span class="helper-text" data-error=""></span>
-                </div>
-
-                <div class="input-field col s6">
-                    <input id="input-m" type="number" class="validate">
-                    <label for="input-m">M</label>
-                    <span class="helper-text" data-error=""></span>
-                </div>
-            </form>
-            <a class="waves-effect waves-light btn js-clean-btn-two-dimensional"><i
-                    class="material-icons right">delete</i>clean</a>
-            <p>
-                <b class="js-answer-two-dimensional"></b>
-            </p>
+  </div>
+  
+  <h5>Завдання 4 Двовимірний Масив</h5>
+  <div class="row">
+    <div class="col s12">
+      <form id="form-two-dimensional" class="row">
+        
+        <div class="input-field col s6">
+          <input id="input-n" type="number" class="validate">
+          <label for="input-n">N</label>
+          <span class="helper-text" data-error=""></span>
         </div>
-    </div>
-
-    <h5>Завдання 5 Розклад</h5>
-
-    <div class="row">
-        <div class="col s12">
-            <form id="form-schedule" class="row">
-                <div class="input-field col s6">
-                    <select class="day-week">
-                        <option value="Понеділок">Понеділок</option>
-                        <option value="Вівторок">Вівторок</option>
-                        <option value="Середа">Середа</option>
-                        <option value="Четверг">Четверг</option>
-                        <option value="П'ятниця">П'ятниця</option>
-                        <option value="Субота">Субота</option>
-                        <option value="Субота">Неділя</option>
-                    </select>
-                    <label>Виберіть день тижня</label>
-                </div>
-                <div class="input-field col s6">
-                    <select class="group">
-                        <option value="ІК-91">ІК-91</option>
-                        <option value="ІК-92">ІК-92</option>
-                        <option value="ІК-93">ІК-93</option>
-                    </select>
-                    <label>Виберіть групу</label>
-                </div>
-            </form>
-
-            <ul id="schedule" class="collection with-header grey darken-4">
-                <li class="collection-header grey darken-4"><h4>Понеділок ІК-91</h4></li>
-                <li class="row collection-item grey darken-4">
-                    <span class="col s6">Node js</span>
-                    <span class="col s4">207</span>
-                    <span class="col s2">14:55</span>
-                </li>
-            </ul>
+        
+        <div class="input-field col s6">
+          <input id="input-m" type="number" class="validate">
+          <label for="input-m">M</label>
+          <span class="helper-text" data-error=""></span>
         </div>
+      </form>
+      <a class="waves-effect waves-light btn js-clean-btn-two-dimensional"><i
+        class="material-icons right">delete</i>clean</a>
+      <p>
+        <b class="js-answer-two-dimensional"></b>
+      </p>
     </div>
-
-    <h5>Завдання 6 Калькулятор</h5>
-
-    <div class="row">
-        <form class="col s12">
-            <div class="input-field input-w">
-                <input id="calculator-input" type="text" class="validate" readonly>
-            </div>
-            <a class="waves-effect waves-light btn mt-5 btn-w-150 btn-calc">C</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w-150 btn-calc"><i class="material-icons">arrow_back</i></a>
-            <br>
-
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">7</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">8</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">9</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">/</a>
-            <br>
-
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">4</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">5</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">6</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">*</a>
-            <br>
-
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">1</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">2</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">3</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">-</a>
-            <br>
-
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">0</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">.</a>
-            <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">=</a>
-            <a class= "waves-effect waves-light btn mt-5 btn-w btn-calc">+</a>
-            <br>
-        </form>
+  </div>
+  
+  <h5>Завдання 5 Розклад</h5>
+  
+  <div class="row">
+    <div class="col s12">
+      <form id="form-schedule" class="row">
+        <div class="input-field col s6">
+          <select class="day-week">
+            <option value="Понеділок">Понеділок</option>
+            <option value="Вівторок">Вівторок</option>
+            <option value="Середа">Середа</option>
+            <option value="Четверг">Четверг</option>
+            <option value="П'ятниця">П'ятниця</option>
+            <option value="Субота">Субота</option>
+            <option value="Субота">Неділя</option>
+          </select>
+          <label>Виберіть день тижня</label>
+        </div>
+        <div class="input-field col s6">
+          <select class="group">
+            <option value="ІК-91">ІК-91</option>
+            <option value="ІК-92">ІК-92</option>
+            <option value="ІК-93">ІК-93</option>
+          </select>
+          <label>Виберіть групу</label>
+        </div>
+      </form>
+      
+      <ul id="schedule" class="collection with-header grey darken-4">
+        <li class="collection-header grey darken-4"><h4>Понеділок ІК-91</h4></li>
+        <li class="row collection-item grey darken-4">
+          <span class="col s6">Node js</span>
+          <span class="col s4">207</span>
+          <span class="col s2">14:55</span>
+        </li>
+      </ul>
     </div>
-
+  </div>
+  
+  <h5>Завдання 6 Калькулятор</h5>
+  
+  <div class="row">
+    <form class="col s12">
+      <div class="input-field input-w">
+        <input id="calculator-input" type="text" class="validate" readonly>
+      </div>
+      <a class="waves-effect waves-light btn mt-5 btn-w-150 btn-calc">C</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w-150 btn-calc"><i class="material-icons">arrow_back</i></a>
+      <br>
+      
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">7</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">8</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">9</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">/</a>
+      <br>
+      
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">4</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">5</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">6</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">*</a>
+      <br>
+      
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">1</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">2</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">3</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">-</a>
+      <br>
+      
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">0</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">.</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">=</a>
+      <a class="waves-effect waves-light btn mt-5 btn-w btn-calc">+</a>
+      <br>
+    </form>
+  </div>
+  
+  <h5>Завдання 7 Товари</h5>
+  
+  <div class="row">
+    <div class="col s12">
+      <form id="form-store" class="row">
+        <div class="input-field col s6">
+          <input id="input-name" type="text" class="validate">
+          <label for="input-name">Назва</label>
+          <span class="helper-text" data-error=""></span>
+        </div>
+        <div class="input-field col s6">
+          <input id="input-price" type="number" class="validate">
+          <label for="input-price">Ціна</label>
+          <span class="helper-text" data-error=""></span>
+        </div>
+      </form>
+      
+      <ul id="table-shop" class="collection with-header grey darken-4">
+        <li class="row collection-item grey darken-4">
+          <span class="col s10">Товари</span>
+          <span class="col s2">Ціна</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <h5>Завдання 8 Масиви</h5>
+  
+  <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+          <input id="input-array" type="number" class="validate">
+          <label for="input-array">N</label>
+          <span class="helper-text" data-error=""></span>
+        </div>
+      </div>
+      <div class="row">
+        <a class="waves-effect waves-light btn btn-triangle">Triangle</a>
+        <a class="waves-effect waves-light btn btn-circle">Circle</a>
+      </div>
+      <pre></pre>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="./dist/main.js"></script>
