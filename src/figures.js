@@ -7,7 +7,7 @@ const figures = () => {
   let arr;
 
   const drawArray = () => {
-    console.log('sdf')
+
     const pre = document.querySelector('pre');
 
     let content = '';
@@ -68,7 +68,7 @@ const figures = () => {
   };
 
   const createCircle = () => {
-
+    //
   };
 
   inputArray.addEventListener('keyup', createArray);
